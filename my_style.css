@@ -104,7 +104,7 @@ button.menu {
 
 @keyframes mymove1 {
   from {right: 0px;}
-  to {right: 700px;}
+  to {background-position: 0 20%;}
 }
 
 @keyframes mymove2 {
