@@ -26,7 +26,7 @@ menu {
   height:70%;
   width: 70%;
   padding: 5% 5% 5% 5%;
-  background-color: pink;
+  background-color: transparent;
 }
 
 footer {
@@ -89,6 +89,7 @@ li {
 #gif2:hover {
   cursor: crosshair;
 }
+
 button.menu {
   background-color:transparent;
   color: white;
@@ -119,23 +120,5 @@ button.menu:hover {
 }
 
 
-/*
-  The default design of the website will be for mobile screens.
-  This will make the page display faster on smaller devices.
-*/
-/*Media query for tablets and medium devices*/
-@media only screen and (min-width:600px){
-  header {background-color: black;}
-  li {float:left;}
-  #gif {height:350px;width:235px;
-  animation: mymove2 5s 1 forwards;}
-}
-/*Media query for desktop*/
-@media only screen and (min-width:768px){
-header {background-color: rgba(0,100,255,0.5);}
-li {float:left;}
-  #gif {height:450px;width:300px;
-  animation: mymove2 5s 1 forwards;}
-  
 }
 
