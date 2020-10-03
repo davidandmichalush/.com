@@ -79,8 +79,8 @@ li {
   position:absolute;
   bottom: 0px;
   right: 0px;
-  height:400px;
-  width:300px;
+  height:40%;
+  width:10%;
   animation: mymove2 5s infinite;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
@@ -104,7 +104,7 @@ button.menu {
 
 @keyframes mymove1 {
   from {right: 0px;}
-  to {right: 60%;}
+  to {right: 20%;}
 }
 
 @keyframes mymove2 {
