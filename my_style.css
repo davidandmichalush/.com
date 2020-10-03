@@ -63,8 +63,8 @@ li {
   position:absolute;
   bottom: 0px;
   right: 0px;
-  height:400px;
-  width:600px;
+  height:70%;
+  width:35%;
   animation: mymove1 5s infinite;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
@@ -79,8 +79,8 @@ li {
   position:absolute;
   bottom: 0px;
   right: 0px;
-  height:40%;
-  width:10%;
+  height:70%;
+  width:35%;
   animation: mymove2 5s infinite;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
