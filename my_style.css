@@ -64,7 +64,7 @@ li {
   bottom: 0px;
   right: 0px;
   height:225px;
-  width:150px;
+  width:400px;
   animation: mymove1 5s infinite;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
@@ -109,7 +109,7 @@ button.menu {
 
 @keyframes mymove2 {
   from {left: 0px;}
-  to {left: -700px;}
+  to {left: 700px;}
 }
 
 button.menu:hover {
