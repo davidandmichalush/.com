@@ -91,9 +91,8 @@ li {
 }
 
 #Happy {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 50%;
+  margin-right: 50%;
   display: none;
 }
 
@@ -116,7 +115,7 @@ button.menu {
 
 @keyframes mymove2 {
   from {left: 0px;}
-  to {left: 50%;}
+  to {left: 40%;}
 }
 
 button.menu:hover {
