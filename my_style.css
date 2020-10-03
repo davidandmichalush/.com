@@ -81,7 +81,7 @@ li {
   right: 0px;
   height:225px;
   width:150px;
-  animation: mymove1 5s infinite;
+  animation: mymove2 5s infinite;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
@@ -91,12 +91,12 @@ li {
 }
 button.menu {
   background-color:transparent;
-  color: black;
+  color: white;
   height: 80%;
   width: 80%;
   margin-left: 10%;
   overflow: hidden;
-  border:2px solid pink;
+  border:2px solid rgba(0,100,255,0.5);
   /*display: block;*/
 
 }
@@ -107,8 +107,8 @@ button.menu {
 }
 
 @keyframes mymove2 {
-  from {right: -200px;}
-  to {right: 50px;}
+  from {right: 250px;}
+  to {right: 0px;}
 }
 
 button.menu:hover {
