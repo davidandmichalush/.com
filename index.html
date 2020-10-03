@@ -49,10 +49,12 @@
 <img id="gif2" onclick="mifuncion2()" src="davidush.png" alt="Por lo que sea no se ve" />
 <!--<img id="fondo" src="fondo.jpg" alt="Por lo que sea no se ve" style="height:100%;margin:auto">-->
 
+<img id="happy" onclick="mifuncion()" src="Happy.gif" alt="Por lo que sea no se ve" />
+<!--<img id="fondo" src="fondo.jpg" alt="Por lo que sea no se ve" style="height:100%;margin:auto">-->  
+  
 <ul>
   <li><button onclick="mifuncion()" class="menu">Überraschung</button></li>  
   <li><button onclick="mifuncion2()" class="menu">CLICK HERE</button></li>
-  <li><button id="cambio" class="menu" style="border:none;font-size:2em;">HAPPY BIRTHDAY LOVECHEN!</button></li>
 </ul>  
 
  
@@ -64,7 +66,7 @@
   
 <script>
 function mifuncion(){
-  var y = document.getElementById("cambio");
+  var y = document.getElementById("happy");
   if(y.style.display=="none"){
   y.style.display = "inline";
   }
