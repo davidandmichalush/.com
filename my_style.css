@@ -103,13 +103,13 @@ button.menu {
 }
 
 @keyframes mymove1 {
-  from {right: -250px;}
+  from {right: 0px;}
   to {right: -500px;}
 }
 
 @keyframes mymove2 {
-  from {right: 1200px;}
-  to {right: -500px;}
+  from {left: 0px;}
+  to {left: 500px;}
 }
 
 button.menu:hover {
