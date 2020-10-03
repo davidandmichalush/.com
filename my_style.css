@@ -108,7 +108,7 @@ button.menu {
 }
 
 @keyframes mymove2 {
-  from {right: 250px;}
+  from {right: 1000px;}
   to {right: 0px;}
 }
 
