@@ -97,7 +97,7 @@ li {
   right: 50%;
   height:50%;
   width:80%;
-  dysplay: none;
+  display: none;
 }
 
 button.menu {
@@ -119,7 +119,7 @@ button.menu {
 
 @keyframes mymove2 {
   from {left: 0px;}
-  to {left: 30%;}
+  to {left: 50%;}
 }
 
 button.menu:hover {
