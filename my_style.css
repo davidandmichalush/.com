@@ -64,8 +64,8 @@ li {
   bottom: 0px;
   right: 0px;
   height:225px;
-  width:150px;
-  animation: mymove1 5s infinite;
+  width:200px;
+  animation: mymove1 7s infinite;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
@@ -98,9 +98,9 @@ button.menu {
 }
 
 button.menu:hover {
-  background-color:blue;
+  background-color:pink;
   color:white;
-  border:2px outline slateblue;
+  border:2px outline pink;
   transition: 1s;
 }
 
