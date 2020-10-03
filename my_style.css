@@ -97,6 +97,7 @@ li {
   right: 50%;
   height:50%;
   width:80%;
+  dysplay: none;
 }
 
 button.menu {
