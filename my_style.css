@@ -65,7 +65,7 @@ li {
   right: 0px;
   height:225px;
   width:150px;
-  animation: mymove1 5s infinite;
+  animation: mymove1 10s infinite;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
