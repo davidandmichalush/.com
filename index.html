@@ -43,14 +43,14 @@
 <!--One of the uses of lists is to create horizontal menus. Take a look in the CSS code-->
 <ul>
   <li><button onclick="mifuncion()" class="menu">Überraschung</button></li>  
-  <li><button onclick="mifuncion3()" class="menu">CLICK HERE</button></li>
+  <li><button onclick="mifuncion3(), mifuncion4()" class="menu">CLICK HERE</button></li>
   <li><button id="cambio" class="menu" style="border:none;font-size:2em;">HAPPY BIRTHDAY LOVECHEN!</button></li>
 </ul>
 
-<img id="gif1" onclick="mifuncion3()" src="michalush.png" alt="Por lo que sea no se ve" />
+<img id="gif" onclick="mifuncion3()" src="michalush.png" alt="Por lo que sea no se ve" />
 <!--<img id="fondo" src="fondo.jpg" alt="Por lo que sea no se ve" style="height:100%;margin:auto">-->
   
-<img id="gif2" onclick="mifuncion3()" src="davidush.png" alt="Por lo que sea no se ve" />
+<img id="gif2" onclick="mifuncion4()" src="davidush.png" alt="Por lo que sea no se ve" />
 <!--<img id="fondo" src="fondo.jpg" alt="Por lo que sea no se ve" style="height:100%;margin:auto">-->
 
 <footer>
@@ -81,6 +81,15 @@ function mifuncion2(){
 
 function mifuncion3(){
   var x = document.getElementById("gif");
+  if(x.style.display=="none"){
+  x.style.display = "inline";
+  }
+  else{
+  x.style.display = "none";
+  }
+  
+  function mifuncion4(){
+  var x = document.getElementById("gif2");
   if(x.style.display=="none"){
   x.style.display = "inline";
   }
