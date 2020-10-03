@@ -64,8 +64,8 @@ li {
   bottom: 0px;
   right: 0px;
   height:225px;
-  width:200px;
-  animation: mymove1 7s infinite;
+  width:150px;
+  animation: mymove1 5s infinite;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
@@ -80,8 +80,8 @@ li {
   bottom: 0px;
   right: 0px;
   height:225px;
-  width:200px;
-  animation: mymove1 7s infinite;
+  width:150px;
+  animation: mymove1 5s infinite;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
@@ -89,7 +89,6 @@ li {
 #gif2:hover {
   cursor: crosshair;
 }
-
 button.menu {
   background-color:transparent;
   color: black;
