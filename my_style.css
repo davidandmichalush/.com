@@ -104,12 +104,12 @@ button.menu {
 
 @keyframes mymove1 {
   from {right: 0px;}
-  to {right: 600px;}
+  to {right: 60%;}
 }
 
 @keyframes mymove2 {
   from {left: 0px;}
-  to {left: 80%;}
+  to {left: 40%;}
 }
 
 button.menu:hover {
