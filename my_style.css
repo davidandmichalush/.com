@@ -14,7 +14,7 @@ body {
 } 
 
 header {
-  height:20%;
+  height:15%;
   margin: 0;
   text-align: center;
   font-size:30px;
@@ -23,14 +23,14 @@ header {
 }
 
 menu {
-  height:60%;
+  height:70%;
   width: 70%;
   padding: 5% 5% 5% 5%;
   background-color: transparent;
 }
 
 footer {
-  height:20%;	
+  height:15%;	
   margin: 0;
   text-align: center;
   font-size:30px;
@@ -94,10 +94,10 @@ li {
   position: fixed;
   position:absolute;
   top: 0px;
-  height: 1200px;
-  width: 1200px;
-    margin-left:auto;
-    margin-right:auto;
+  height: 1000px;
+  width: 1000px;
+  margin-left:auto;
+  margin-right:auto;
   display: none;
 }
 
@@ -132,17 +132,17 @@ button.menu:hover {
 
 @media screen and (max-width: 1000px) {
 header {
-  font-size:20px;
+  font-size:14px;
   height:20%;	
 }
 footer {
-  font-size:20px;
+  font-size:14px;
   height:20%;
 }
 #Happy {
   position: fixed;
   position:absolute;
-  top: 50px;
+  top: 0px;
   height: 300px;
   width: 300px;
   margin-left:auto;
@@ -158,7 +158,7 @@ menu {
   position:absolute;
   bottom: 0px;
   right: 0px;
-  height:50%;
+  height:40%;
   width:60%;
   animation: mymove1 5s infinite;
   animation-iteration-count: 1;
@@ -170,7 +170,7 @@ menu {
   position:absolute;
   bottom: 0px;
   right: 0px;
-  height:50%;
+  height:40%;
   width:30%;
   animation: mymove2 5s infinite;
   animation-iteration-count: 1;
