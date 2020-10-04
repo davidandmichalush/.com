@@ -145,6 +145,30 @@ menu {
   height:80%;
 }
 	
+#gif {
+  position: fixed;
+  position:absolute;
+  bottom: 0px;
+  right: 0px;
+  height:70%;
+  width:65%;
+  animation: mymove1 5s infinite;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+#gif2 {
+  position: fixed;
+  position:absolute;
+  bottom: 0px;
+  right: 0px;
+  height:70%;
+  width:45%;
+  animation: mymove2 5s infinite;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+	
 }
 
 }
