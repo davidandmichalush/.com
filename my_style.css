@@ -17,7 +17,7 @@ header {
   height:20%;
   margin: 0;
   text-align: center;
-  font-size:30px;
+  font-size:10vw;
   color: black;
   background-color: pink;
 }
@@ -33,7 +33,7 @@ footer {
   height:20%;	
   margin: 0;
   text-align: center;
-  font-size:30px;
+  font-size:10vw;
   color: black;
   background-color: pink;
 }
@@ -132,12 +132,10 @@ button.menu:hover {
 
 @media screen and (max-width: 2500px) {
 header {
-  font-size:20px;
   height:10%;	
 }
 footer {
   height:10%;
-  font-size:20px;
 }
 #Happy {
   position: fixed;
