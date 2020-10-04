@@ -14,7 +14,7 @@ body {
 } 
 
 header {
-  height:30%;
+  height:20%;
   margin: 0;
   text-align: center;
   font-size:40px;
@@ -30,7 +30,7 @@ menu {
 }
 
 footer {
-  height:10%;	
+  height:20%;	
   margin: 0;
   text-align: center;
 	font-size:40px;
@@ -91,9 +91,9 @@ li {
 }
 
 #Happy {
-  height: 50%;
-  width: 50;
-  margin: auto;
+  height: 1200px;
+  width: 1200px;
+  margin-left: 40%;
   display: none;
 }
 
@@ -128,17 +128,23 @@ button.menu:hover {
 
 @media screen and (max-width: 480px) {
 header {
-  font-size:10px;
+  font-size:20px;
+  height:10%;	
 }
 footer {
-  font-size:10px;
+  height:10%;
+  font-size:20px;
 }
 #Happy {
-  height: 50%;
-  width: 80%;
-  margin: auto;
+  height: 500px;
+  width: 500px;
+  margin-left: 40%;
   display: none;
 }
+menu {
+  height:80%;
+}
+	
 }
 
 }
