@@ -17,7 +17,7 @@ header {
   height:20%;
   margin: 0;
   text-align: center;
-  font-size:4vw;
+  font-size:40px;
   color: black;
   background-color: pink;
 }
@@ -33,7 +33,7 @@ footer {
   height:20%;	
   margin: 0;
   text-align: center;
-  font-size:4vw;
+  font-size:40px;
   color: black;
   background-color: pink;
 }
@@ -94,12 +94,11 @@ li {
   position: fixed;
   position:absolute;
   top: 100px;
-  height: 800px;
-  width: 800px;
+  height: 1000px;
+  width: 1000px;
     margin-left:auto;
     margin-right:auto;
   display: none;
-  display: block;
 }
 
 button.menu {
@@ -133,21 +132,22 @@ button.menu:hover {
 
 @media screen and (max-width: 1000px) {
 header {
+  font-size:10px;
   height:20%;	
 }
 footer {
+  font-size:10px;
   height:20%;
 }
 #Happy {
   position: fixed;
   position:absolute;
   top: 50px;
-  height: 400px;
-  width: 400px;
+  height: 300px;
+  width: 300px;
   margin-left:auto;
   margin-right:auto;
   display: none;
-  display: block;
 }
 menu {
   height:60%;
@@ -159,7 +159,7 @@ menu {
   bottom: 0px;
   right: 0px;
   height:60%;
-  width:45%;
+  width:50%;
   animation: mymove1 5s infinite;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
@@ -171,13 +171,26 @@ menu {
   bottom: 0px;
   right: 0px;
   height:60%;
-  width:40%;
+  width:30%;
   animation: mymove2 5s infinite;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
 	
 }
+
+@media screen and (max-width: 400px) {
+header {
+  font-size:5px;
+  height:20%;	
+}
+footer {
+  font-size:5px;
+  height:20%;
+}
+}
+
+
 
 }
 
