@@ -94,8 +94,8 @@ li {
   position: fixed;
   position:absolute;
   top: 0px;
-  height: 900px;
-  width: 1300px;
+  height: 700px;
+  width: 1200px;
   margin-left:auto;
   margin-right:auto;
   display: none;
@@ -142,9 +142,9 @@ footer {
 #Happy {
   position: fixed;
   position:absolute;
-  top: 0px;
-  height: 300px;
-  width: 300px;
+  top: 200px;
+  height: 400px;
+  width: 400px;
   margin-left:auto;
   margin-right:auto;
   display: none;
@@ -159,7 +159,7 @@ menu {
   bottom: 0px;
   right: 0px;
   height:60%;
-  width:50%;
+  width:60%;
   animation: mymove1 5s infinite;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
@@ -184,7 +184,7 @@ menu {
 
 @keyframes mymove2 {
   from {left: 0px;}
-  to {left: 20%;}
+  to {left: 30%;}
 }	
 	
 }
