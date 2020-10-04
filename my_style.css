@@ -94,9 +94,10 @@ li {
   position: fixed;
   position:absolute;
   top: 200px;
-  height: 1200px;
-  width: 1200px;
-  margin-left: 40%;
+  height: 800px;
+  width: 800px;
+    margin-left:auto;
+    margin-right:auto;
   display: none;
 }
 
@@ -129,22 +130,23 @@ button.menu:hover {
   transition: 1s;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 2500px) {
 header {
-  font-size:10px;
+  font-size:20px;
   height:10%;	
 }
 footer {
   height:10%;
-  font-size:10px;
+  font-size:20px;
 }
 #Happy {
   position: fixed;
   position:absolute;
   top: 100px;
-  height: 400px;
-  width: 400px;
-  margin-left: 20%;
+  height: 200px;
+  width: 200px;
+    margin-left:auto;
+    margin-right:auto;
   display: none;
 }
 menu {
