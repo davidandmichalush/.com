@@ -130,7 +130,7 @@ button.menu:hover {
   transition: 1s;
 }
 
-@media screen and (max-width: 2500px) {
+@media screen and (max-width: 1000px) {
 header {
   height:10%;	
 }
@@ -156,8 +156,8 @@ menu {
   position:absolute;
   bottom: 0px;
   right: 0px;
-  height:70%;
-  width:65%;
+  height:60%;
+  width:35%;
   animation: mymove1 5s infinite;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
@@ -168,8 +168,8 @@ menu {
   position:absolute;
   bottom: 0px;
   right: 0px;
-  height:70%;
-  width:45%;
+  height:60%;
+  width:15%;
   animation: mymove2 5s infinite;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
