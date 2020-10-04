@@ -142,9 +142,9 @@ footer {
 #Happy {
   position: fixed;
   position:absolute;
-  top: 200px;
-  height: 400px;
-  width: 400px;
+  top: 0px;
+  height: 300px;
+  width: 300px;
   margin-left:auto;
   margin-right:auto;
   display: none;
@@ -159,7 +159,7 @@ menu {
   bottom: 0px;
   right: 0px;
   height:60%;
-  width:60%;
+  width:70%;
   animation: mymove1 5s infinite;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
