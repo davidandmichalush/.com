@@ -94,8 +94,8 @@ li {
   position: fixed;
   position:absolute;
   top: 0px;
-  height: 1000px;
-  width: 1000px;
+  height: 1300px;
+  width: 900px;
   margin-left:auto;
   margin-right:auto;
   display: none;
@@ -158,8 +158,8 @@ menu {
   position:absolute;
   bottom: 0px;
   right: 0px;
-  height:40%;
-  width:60%;
+  height:60%;
+  width:40%;
   animation: mymove1 5s infinite;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
@@ -170,12 +170,22 @@ menu {
   position:absolute;
   bottom: 0px;
   right: 0px;
-  height:40%;
-  width:30%;
+  height:60%;
+  width:60%;
   animation: mymove2 5s infinite;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
+
+@keyframes mymove1 {
+  from {right: 0px;}
+  to {right: 10%;}
+}
+
+@keyframes mymove2 {
+  from {left: 0px;}
+  to {left: 30%;}
+}	
 	
 }
 
