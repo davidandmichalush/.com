@@ -91,6 +91,9 @@ li {
 }
 
 #Happy {
+  position: fixed;
+  position:absolute;
+  top: 200px;
   height: 1200px;
   width: 1200px;
   margin-left: 40%;
@@ -136,8 +139,11 @@ footer {
   font-size:20px;
 }
 #Happy {
-  height: 300px;
-  width: 300px;
+  position: fixed;
+  position:absolute;
+  top: 100px;
+  height: 100px;
+  width: 100px;
   margin-left: 40%;
   display: none;
 }
