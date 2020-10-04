@@ -17,7 +17,7 @@ header {
   height:20%;
   margin: 0;
   text-align: center;
-  font-size:2vw;
+  font-size:4vw;
   color: black;
   background-color: pink;
 }
@@ -33,7 +33,7 @@ footer {
   height:20%;	
   margin: 0;
   text-align: center;
-  font-size:2vw;
+  font-size:4vw;
   color: black;
   background-color: pink;
 }
@@ -93,12 +93,13 @@ li {
 #Happy {
   position: fixed;
   position:absolute;
-  top: 200px;
+  top: 100px;
   height: 800px;
   width: 800px;
     margin-left:auto;
     margin-right:auto;
   display: none;
+  display: block;
 }
 
 button.menu {
@@ -132,23 +133,24 @@ button.menu:hover {
 
 @media screen and (max-width: 1000px) {
 header {
-  height:10%;	
+  height:20%;	
 }
 footer {
-  height:10%;
+  height:20%;
 }
 #Happy {
   position: fixed;
   position:absolute;
-  top: 100px;
-  height: 200px;
-  width: 200px;
-    margin-left:auto;
-    margin-right:auto;
+  top: 50px;
+  height: 400px;
+  width: 400px;
+  margin-left:auto;
+  margin-right:auto;
   display: none;
+  display: block;
 }
 menu {
-  height:80%;
+  height:60%;
 }
 	
 #gif {
@@ -157,7 +159,7 @@ menu {
   bottom: 0px;
   right: 0px;
   height:60%;
-  width:35%;
+  width:45%;
   animation: mymove1 5s infinite;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
@@ -169,7 +171,7 @@ menu {
   bottom: 0px;
   right: 0px;
   height:60%;
-  width:15%;
+  width:40%;
   animation: mymove2 5s infinite;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
